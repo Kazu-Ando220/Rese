@@ -1,0 +1,90 @@
+html {
+    background: #D3D3D3;
+    max-width: 1230px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 0;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.image-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.title-icon {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0000FF  ;
+}
+
+.search-form {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    background: #FFF;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.card-img card-content {
+    flex: 1 1 calc(25% - 10px);
+}
+
+.card-content {
+    box-sizing: border-box;
+    background: #FFF;
+    padding: 10px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #000;
+}
+
+.card__shop-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-area card-genre {
+    display: inline;
+    margin: 5px 10px 0;
+}
+
+.card-btn {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.shop__detail-btn {
+    border-radius: 5px;
+    border: none;
+    background: #0000FF;
+    color: #FFF;
+}
+
+.heart {
+    font-size: 30px;
+    color: gray;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.heart.active {
+    color: red;
+}
